@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Nikhil
+ * @author Saideep
  */
 public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
 
