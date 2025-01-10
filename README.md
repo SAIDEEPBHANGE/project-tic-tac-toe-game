@@ -19,4 +19,4 @@ To run this project, you'll need the following:
 ## Setup and Installation
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/tic-tac-toe-java.git
+   git clone https://github.com/SAIDEEPBHANGE/project-tic-tac-toe-game.git
