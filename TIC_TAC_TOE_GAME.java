@@ -11,7 +11,6 @@ import javax.swing.JOptionPane;
  * @author Saideep Bhange
  */
 public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
-
     /**
      * Creates new form TIC_TAC_TOE_GAME
      */
@@ -191,7 +190,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         tttbtn1 = new javax.swing.JButton();
@@ -210,16 +208,12 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         playerx_1 = new javax.swing.JLabel();
         playerx = new javax.swing.JLabel();
         playero = new javax.swing.JLabel();
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("TIC TAC TOE GAME");
         setResizable(false);
-
         jPanel1.setBackground(new java.awt.Color(255, 204, 51));
-
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
         jLabel1.setText("TIC TAC TOE GAME");
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -236,7 +230,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 .addComponent(jLabel1)
                 .addGap(26, 26, 26))
         );
-
         tttbtn1.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn1.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn1.addActionListener(new java.awt.event.ActionListener() {
@@ -244,7 +237,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn1ActionPerformed(evt);
             }
         });
-
         tttbtn3.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn3.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn3.addActionListener(new java.awt.event.ActionListener() {
@@ -252,7 +244,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn3ActionPerformed(evt);
             }
         });
-
         tttbtn2.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn2.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn2.addActionListener(new java.awt.event.ActionListener() {
@@ -260,7 +251,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn2ActionPerformed(evt);
             }
         });
-
         tttbtn4.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn4.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn4.addActionListener(new java.awt.event.ActionListener() {
@@ -268,7 +258,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn4ActionPerformed(evt);
             }
         });
-
         tttbtn6.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn6.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn6.addActionListener(new java.awt.event.ActionListener() {
@@ -276,7 +265,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn6ActionPerformed(evt);
             }
         });
-
         tttbtn5.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn5.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn5.addActionListener(new java.awt.event.ActionListener() {
@@ -284,7 +272,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn5ActionPerformed(evt);
             }
         });
-
         tttbtn7.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn7.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn7.addActionListener(new java.awt.event.ActionListener() {
@@ -292,7 +279,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn7ActionPerformed(evt);
             }
         });
-
         tttbtn9.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn9.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn9.addActionListener(new java.awt.event.ActionListener() {
@@ -300,7 +286,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn9ActionPerformed(evt);
             }
         });
-
         tttbtn8.setFont(new java.awt.Font("Tahoma", 0, 48)); // NOI18N
         tttbtn8.setMaximumSize(new java.awt.Dimension(150, 150));
         tttbtn8.addActionListener(new java.awt.event.ActionListener() {
@@ -308,7 +293,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtn8ActionPerformed(evt);
             }
         });
-
         tttbtnreset.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         tttbtnreset.setText("RESET");
         tttbtnreset.addActionListener(new java.awt.event.ActionListener() {
@@ -316,7 +300,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtnresetActionPerformed(evt);
             }
         });
-
         tttbtnexit.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         tttbtnexit.setText("EXIT");
         tttbtnexit.addActionListener(new java.awt.event.ActionListener() {
@@ -324,19 +307,14 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                 tttbtnexitActionPerformed(evt);
             }
         });
-
         playero_2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         playero_2.setText("PLAYER O:");
-
         playerx_1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         playerx_1.setText("PLAYER X:");
-
         playerx.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         playerx.setText("0");
-
         playero.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         playero.setText("0");
-
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -367,7 +345,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                     .addComponent(playero, javax.swing.GroupLayout.PREFERRED_SIZE, 29, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(199, Short.MAX_VALUE))
         );
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -432,11 +409,9 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
                             .addComponent(tttbtnreset, javax.swing.GroupLayout.PREFERRED_SIZE, 104, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(0, 89, Short.MAX_VALUE))
         );
-
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
     private void tttbtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn1ActionPerformed
         if(tttbtn1.getText().isEmpty() && !startGame.isEmpty()){
             tttbtn1.setText(startGame);
@@ -448,14 +423,12 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             }
             choose_a_player();
             wincheck();
-            
         }
         else{
             startGame = tttbtn1.getText();
             tttbtn1.setText("");
         }
     }//GEN-LAST:event_tttbtn1ActionPerformed
-
     private void tttbtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn3ActionPerformed
         // TODO add your handling code here:
         if(tttbtn3.getText().isEmpty() && !startGame.isEmpty()){
@@ -474,7 +447,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn3.setText("");
         }
     }//GEN-LAST:event_tttbtn3ActionPerformed
-
     private void tttbtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn2ActionPerformed
         // TODO add your handling code here:
         if(tttbtn2.getText().isEmpty() && !startGame.isEmpty()){
@@ -493,7 +465,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn2.setText("");
         }
     }//GEN-LAST:event_tttbtn2ActionPerformed
-
     private void tttbtn4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn4ActionPerformed
         // TODO add your handling code here:
         if(tttbtn4.getText().isEmpty() && !startGame.isEmpty()){
@@ -512,7 +483,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn4.setText("");
         }
     }//GEN-LAST:event_tttbtn4ActionPerformed
-
     private void tttbtn6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn6ActionPerformed
         // TODO add your handling code here:
         if(tttbtn6.getText().isEmpty() && !startGame.isEmpty()){
@@ -531,7 +501,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn6.setText("");
         }
     }//GEN-LAST:event_tttbtn6ActionPerformed
-
     private void tttbtn5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn5ActionPerformed
         // TODO add your handling code here:
         if(tttbtn5.getText().isEmpty() && !startGame.isEmpty()){
@@ -550,7 +519,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn5.setText("");
         }
     }//GEN-LAST:event_tttbtn5ActionPerformed
-
     private void tttbtn7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn7ActionPerformed
         // TODO add your handling code here:
         if(tttbtn7.getText().isEmpty() && !startGame.isEmpty()){
@@ -569,7 +537,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn7.setText("");
         }
     }//GEN-LAST:event_tttbtn7ActionPerformed
-
     private void tttbtn9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn9ActionPerformed
         // TODO add your handling code here:
         if(tttbtn9.getText().isEmpty() && !startGame.isEmpty()){
@@ -588,7 +555,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn9.setText("");
         }
     }//GEN-LAST:event_tttbtn9ActionPerformed
-
     private void tttbtn8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtn8ActionPerformed
         // TODO add your handling code here:
         if(tttbtn8.getText().isEmpty() && !startGame.isEmpty()){
@@ -607,7 +573,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             tttbtn8.setText("");
         }
     }//GEN-LAST:event_tttbtn8ActionPerformed
-
     private void tttbtnexitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtnexitActionPerformed
         // TODO add your handling code here:
         JFrame frame = new JFrame("exit");
@@ -615,7 +580,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             System.exit(0);
         }
     }//GEN-LAST:event_tttbtnexitActionPerformed
-
     private void tttbtnresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tttbtnresetActionPerformed
         // TODO add your handling code here:
         tttbtn1.setText("");
@@ -640,7 +604,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
         xmoves=2;
         ymoves=3;
     }//GEN-LAST:event_tttbtnresetActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -667,7 +630,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(TIC_TAC_TOE_GAME.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -675,7 +637,6 @@ public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
             }
         });
     }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
