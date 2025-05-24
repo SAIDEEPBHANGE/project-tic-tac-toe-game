@@ -1,17 +1,14 @@
-
 import java.awt.Color;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
- * @author Nikhil
+ * @author Saideep Bhange
  */
 public class TIC_TAC_TOE_GAME extends javax.swing.JFrame {
 
